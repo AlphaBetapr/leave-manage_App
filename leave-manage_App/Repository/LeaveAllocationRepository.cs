@@ -15,6 +15,12 @@ namespace leave_manage_App.Repository
             _db = db;
         }
 
+        public bool isExists(int id)
+        {
+            var exists = _db.leaveAllocations.Any(q => q.Id == id);
+            return exists;
+        }
+
         public bool Create(LeaveAllocation entity)
         {
             _db.leaveAllocations.Add(entity);

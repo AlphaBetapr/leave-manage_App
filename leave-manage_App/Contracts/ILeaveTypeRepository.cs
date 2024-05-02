@@ -6,7 +6,7 @@ using leave_manage_App.Data;
 
 namespace leave_manage_App.Contracts
 {
-    interface ILeaveTypeRepository : IRepositoryBase<LeaveType>
+    public interface ILeaveTypeRepository : IRepositoryBase<LeaveType>
     {
 
         ICollection<LeaveType> GetEmployeesByLeaveType(int id);

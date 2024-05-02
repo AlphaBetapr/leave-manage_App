@@ -1,6 +1,7 @@
 using AutoMapper;
 using leave_manage_App.Contracts;
 using leave_manage_App.Data;
+using leave_manage_App.Mapping;
 using leave_manage_App.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -40,7 +41,7 @@ namespace leave_manage_App
             services.AddScoped<ILeaveAllocationRepository, LeaveAllocationRepository>();
 
             // Add Mapping for ViewModel
-            services.AddAutoMapper(typeof(Mapper));
+            services.AddAutoMapper(typeof(Maps));
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
