@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leave-manage_App", "leave-manage_App\leave-manage_App.csproj", "{54652DDD-6797-4D55-BF3B-BEF2F85BFBFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "leave-manage_App", "leave-manage_App\leave-manage_App.csproj", "{54652DDD-6797-4D55-BF3B-BEF2F85BFBFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
