@@ -2,6 +2,7 @@
 using leave_manage_App.Contracts;
 using leave_manage_App.Data;
 using leave_manage_App.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace leave_manage_App.Controllers
 {
+    [Authorize (Roles = "Administrator")]
     public class LeaveTypesController : Controller
     {
 
@@ -25,8 +27,7 @@ namespace leave_manage_App.Controllers
             
         }
 
-
-
+        
         // GET: LeaveTypesController
         public ActionResult Index()
         {
