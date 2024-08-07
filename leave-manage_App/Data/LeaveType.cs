@@ -11,6 +11,7 @@ namespace leave_manage_App.Data
          public int Id { get; set; }
         [required]
         public String Name { get; set; }
+        public String DefaultDays { get; set; }
         public DateTime DateCreated { get; set; }
     }
 

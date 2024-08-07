@@ -6,7 +6,10 @@ using leave_manage_App.Data;
 
 namespace leave_manage_App.Contracts
 {
-    interface ILeaveAllocationRepository : IRepositoryBase<LeaveAllocation>
+    public interface ILeaveAllocationRepository : IRepositoryBase<LeaveAllocation>
     {
+
+        bool CheckAllocation(int leavetypeid, string employeeid);
+
     }
 }

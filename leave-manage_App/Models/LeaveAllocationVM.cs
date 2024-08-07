@@ -16,6 +16,9 @@ namespace leave_manage_App.Models
         public DateTime DateCreated { get; set; }
 
 
+        public int Period { get; set; }
+
+
         public EmployeeVM Employee { get; set; }
         public String EmployeeId { get; set; }
 
@@ -27,4 +30,15 @@ namespace leave_manage_App.Models
         public IEnumerable<SelectListItem> LeaveTypes { get; set; }
 
     }
+
+
+    public class CreateLeaveAllocationVM
+    {
+
+        public int NumberUpdated { get; set; }
+        public List<LeaveTypeVM> LeaveTypes { get; set; }
+
+
+    }
+
 }

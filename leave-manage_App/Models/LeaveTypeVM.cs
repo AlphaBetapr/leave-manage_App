@@ -12,9 +12,18 @@ namespace leave_manage_App.Models
         public int Id { get; set; }
         [Required]
         public String Name { get; set; }
+
+        [Required]
+        [Display(Name = "Default Number Of Days")]
+        [Range(1,25, ErrorMessage = "Please Enter A Valid Number")]
+        public String DefaultDays { get; set; }
+
+        [Display(Name="Date Created")]
         public DateTime? DateCreated { get; set; }
 
     }
 
 
 }
+
+
