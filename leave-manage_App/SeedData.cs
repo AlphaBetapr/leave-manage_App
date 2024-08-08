@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using leave_manage_App.Data;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace leave_manage_App
     public static class SeedData
     {
 
-        public static void Seed(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
+        public static void Seed(UserManager<Employee> userManager, RoleManager<IdentityRole> roleManager)
         {
 
             SeedRoles(roleManager);
@@ -35,13 +36,19 @@ namespace leave_manage_App
         }
 
 
-        private static void SeedUsers(UserManager<IdentityUser> userManager)
+        private static void SeedUsers(UserManager<Employee> userManager)
         {
 
-            if(userManager.FindByNameAsync("admin").Result == null)
+            var users = userManager.GetUsersInRoleAsync("Employee").Result;
+
+            if(userManager.FindByNameAsync("admin@localhost.com").Result == null)
             {
 
-                var user = new IdentityUser { UserName = "admin", Email = "admin@localhost" };
+                var user = new Employee
+                { 
+                    UserName = "admin@localhost.com", 
+                    Email = "admin@localhost.com" 
+                };
                 var result = userManager.CreateAsync(user, "Pakistan@1").Result;
 
                 if(result.Succeeded)
