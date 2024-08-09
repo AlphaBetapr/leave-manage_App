@@ -91,9 +91,22 @@ namespace leave_manage_App.Controllers
 
 
         // GET: LeaveAllocationController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(String id)
         {
-            return View();
+
+            var employee = _userManager.FindByIdAsync(id).Result;
+            var EmployeeModel = _mapper.Map<EmployeeVM>(employee);
+
+            var allocation = _leaveallocationrepo.GetLeaveAllocationsByEmployee(id);
+            var allocationModel = _mapper.Map<List<LeaveAllocationVM>>(allocation);
+
+            var model = new ViewAllocationVM
+            {
+                Employee = EmployeeModel,
+                LeaveAllocations = allocationModel
+            };
+
+            return View(model);
         }
 
         // GET: LeaveAllocationController/Create
@@ -120,21 +133,41 @@ namespace leave_manage_App.Controllers
         // GET: LeaveAllocationController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+
+            var allocation = _leaveallocationrepo.FindById(id);
+            var model = _mapper.Map<EditLeaveAllocationVM>(allocation);
+
+            return View(model);
         }
 
         // POST: LeaveAllocationController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(EditLeaveAllocationVM model)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if(!ModelState.IsValid)
+                {
+                    return View(model);
+                }
+
+                var record = _leaveallocationrepo.FindById(model.Id);
+                record.NumberOfDays = model.NumberOfDays;
+
+                var isSuccess = _leaveallocationrepo.Update(record);
+
+                if(!isSuccess)
+                {
+                    ModelState.AddModelError("", "Error in Saving Record");
+                    return View(model);
+                }
+
+                return RedirectToAction(nameof(Details), new { id = model.EmployeeId});
             }
             catch
             {
-                return View();
+                return View(model);
             }
         }
 

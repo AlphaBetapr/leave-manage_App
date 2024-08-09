@@ -1,5 +1,6 @@
 ﻿using leave_manage_App.Contracts;
 using leave_manage_App.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,13 +36,13 @@ namespace leave_manage_App.Repository
 
         public ICollection<LeaveAllocation> FindAll()
         {
-            var LA = _db.leaveAllocations.ToList();
+            var LA = _db.leaveAllocations.Include(q => q.LeaveType).Include(q => q.Employee).ToList();
             return LA;
         }
 
         public LeaveAllocation FindById(int id)
         {
-            var LA = _db.leaveAllocations.Find(id);
+            var LA = _db.leaveAllocations.Include(q => q.LeaveType).Include(q => q.Employee).FirstOrDefault(q => q.Id == id);
             return LA;
         }
 
@@ -62,6 +63,14 @@ namespace leave_manage_App.Repository
             var period = DateTime.Now.Year;
 
             return FindAll().Where(q => q.EmployeeId == employeeid && q.LeaveTypeId == leavetypeid && q.Period == period).Any();
+
+        }
+
+        public ICollection<LeaveAllocation> GetLeaveAllocationsByEmployee(string id)
+        {
+
+            var period = DateTime.Now.Year;
+            return FindAll().Where(q => q.EmployeeId == id && q.Period == period).ToList(); 
 
         }
     }
