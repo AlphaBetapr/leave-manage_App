@@ -22,7 +22,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="~/css/adminlte.min.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-    <link rel="stylesheet" href="//cdn.datatables.net/2.0.6/css/dataTables.dataTables.min.css" />
+    <link rel="stylesheet" href="~/css/dataTables.bootstrap4.min.css" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
 </head>
 <body class="hold-transition sidebar-mini">
@@ -37,11 +37,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </li>
 
                 @*<li class="nav-item d-none d-sm-inline-block">
-                    <a href="index3.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item d-none d-sm-inline-block">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>*@
+                        <a href="index3.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>*@
 
             </ul>
 
@@ -56,69 +56,68 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     </div>
                 </div>
             </form>-->
-
             <!-- Right navbar links -->
             <!--<ul class="navbar-nav ml-auto">-->
-                <!-- Messages Dropdown Menu -->
-                <!--<li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="far fa-comments"></i>
-                        <span class="badge badge-danger navbar-badge">3</span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                        <a href="#" class="dropdown-item">-->
-                            <!-- Message Start -->
-                            <!--<div class="media">
-                                <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
-                                <div class="media-body">
-                                    <h3 class="dropdown-item-title">
-                                        Brad Diesel
-                                        <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
-                                    </h3>
-                                    <p class="text-sm">Call me whenever you can...</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                </div>
-                            </div>-->
-                            <!-- Message End -->
-                        <!--</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">-->
-                            <!-- Message Start -->
-                            <!--<div class="media">
-                                <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-                                <div class="media-body">
-                                    <h3 class="dropdown-item-title">
-                                        John Pierce
-                                        <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
-                                    </h3>
-                                    <p class="text-sm">I got your message bro</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                </div>
-                            </div>-->
-                            <!-- Message End -->
-                        <!--</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">-->
-                            <!-- Message Start -->
-                            <!--<div class="media">
-                                <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-                                <div class="media-body">
-                                    <h3 class="dropdown-item-title">
-                                        Nora Silvester
-                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
-                                    </h3>
-                                    <p class="text-sm">The subject goes here</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                </div>
-                            </div>-->
-                            <!-- Message End -->
-                        <!--</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
-                    </div>
-                </li>-->
-                <!-- Notifications Dropdown Menu -->
-                <!--<li class="nav-item dropdown">
+            <!-- Messages Dropdown Menu -->
+            <!--<li class="nav-item dropdown">
+                <a class="nav-link" data-toggle="dropdown" href="#">
+                    <i class="far fa-comments"></i>
+                    <span class="badge badge-danger navbar-badge">3</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                    <a href="#" class="dropdown-item">-->
+            <!-- Message Start -->
+            <!--<div class="media">
+                <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                <div class="media-body">
+                    <h3 class="dropdown-item-title">
+                        Brad Diesel
+                        <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                    </h3>
+                    <p class="text-sm">Call me whenever you can...</p>
+                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                </div>
+            </div>-->
+            <!-- Message End -->
+            <!--</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">-->
+            <!-- Message Start -->
+            <!--<div class="media">
+                <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <div class="media-body">
+                    <h3 class="dropdown-item-title">
+                        John Pierce
+                        <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                    </h3>
+                    <p class="text-sm">I got your message bro</p>
+                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                </div>
+            </div>-->
+            <!-- Message End -->
+            <!--</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">-->
+            <!-- Message Start -->
+            <!--<div class="media">
+                <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <div class="media-body">
+                    <h3 class="dropdown-item-title">
+                        Nora Silvester
+                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                    </h3>
+                    <p class="text-sm">The subject goes here</p>
+                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                </div>
+            </div>-->
+            <!-- Message End -->
+            <!--</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                </div>
+            </li>-->
+            <!-- Notifications Dropdown Menu -->
+            <!--<li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">
                         <i class="far fa-bell"></i>
                         <span class="badge badge-warning navbar-badge">15</span>
@@ -157,7 +156,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Brand Logo -->
             <a href="#" class="brand-link">
                 @*<img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-                     style="opacity: .8">*@
+                    style="opacity: .8">*@
                 <span class="brand-text font-weight-light">Leave Application Portal</span>
             </a>
 
@@ -170,40 +169,89 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        <!-- Add icons to the links using the .nav-icon class
-                 with font-awesome or any other icon font library -->
-                        <li class="nav-item has-treeview menu-open">
-                            <a href="#" class="nav-link active">
-                                <i class="nav-icon fas fa-tachometer-alt"></i>
-                                <p>
-                                    Starter Pages
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link active">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Active Page</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Inactive Page</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-th"></i>
+                            <a asp-area="" asp-controller="Home" asp-action="Index" class="nav-link">
+                                <i class="nav-icon fas fa-home"></i>
                                 <p>
-                                    Simple Link
-                                    <span class="right badge badge-danger">New</span>
+                                    Home
+
                                 </p>
                             </a>
                         </li>
+
+                        <li class="nav-item">
+                            <a asp-area="" asp-controller="LeaveRequest" asp-action="MyLeave" class="nav-link">
+                                <i class="nav-icon fas fa-pen-alt"></i>
+                                <p>
+
+                                    My Leave
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a asp-area="" asp-controller="LeaveRequest" asp-action="Create" class="nav-link">
+                                <i class="nav-icon fas fa-book-open"></i>
+                                <p>
+
+                                    Apply For Leave
+                                </p>
+                            </a>
+                        </li>
+
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+
+                            if (User.IsInRole("Administrator"))
+                            {
+
+
+                                <li class="nav-item has-treeview menu-open">
+                                    <a href="#" class="nav-link active">
+                                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                                        <p>
+                                            Manage
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a asp-controller="LeaveTypes" asp-action="Index" class="nav-link ">
+                                                <i class="fas fa-list nav-icon"></i>
+                                                <p>Leave Types</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a asp-controller="LeaveAllocation" asp-action="Index" class="nav-link">
+                                                <i class="fas fa-list-alt nav-icon"></i>
+                                                <p>Leave Allocation</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a asp-controller="LeaveRequest" asp-action="Index" class="nav-link">
+                                                <i class="fas fa-cogs nav-icon"></i>
+                                                <p>Leave Application</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a asp-controller="LeaveAllocation" asp-action="ListEmployees" class="nav-link">
+                                                <i class="fas fa-users nav-icon"></i>
+                                                <p>Employees</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+
+                                </li>
+
+                            }
+
+                        }
+
+
+
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->
@@ -213,7 +261,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
-            @RenderBody()
+
+            <div class="content-header">
+                <div class="container-fluid">
+
+                </div>
+            </div>
+
+            <div class="content-header">
+                <div class="container-fluid">
+                    @RenderBody()
+                </div>
+            </div>
+
         </div>
         <!-- /.content-wrapper -->
         <!-- Control Sidebar -->
@@ -229,10 +289,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <footer class="main-footer">
             <!-- To the right -->
             <div class="float-right d-none d-sm-inline">
-                Anything you want
+                <p> ...... </p>
             </div>
             <!-- Default to the left -->
-            <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; @DateTime.Now.Year <a href="https://github.com/msameerr"> Muhammad Sameer </a>.</strong> All rights reserved.
         </footer>
     </div>
     <!-- ./wrapper -->
@@ -242,7 +302,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="~/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
     <script src="~/js/adminlte.min.js"></script>
-    <script src="//cdn.datatables.net/2.0.6/js/dataTables.min.js"></script>
+    <script src="~/js/jquery.dataTables.min.js"></script>
+    <script src="~/js/dataTables.bootstrap4.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
 
