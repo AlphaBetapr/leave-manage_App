@@ -5,14 +5,8 @@ This project is an interactive leave application portal that includes Employee l
 
 Markup :  > Features
           >> Create your own Leave Type as admin
-          >> Add the number of days specific to a leave
-          >>Allocate Leave to Employees
-          >>User Authentication
-          >>Apply for Leave
-          >>Leave request approval workflow.
-          >>Employee List View
-          >>Allocation Leave View
-          >>Request List View
+        Markup :  > Blockquote
+          >> Nested Blockquote
 
 ## Technology Stack
 
