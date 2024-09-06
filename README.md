@@ -4,18 +4,37 @@ This project is an interactive leave application portal that includes Employee l
 ## Features
 
 <details>
-           <summary>Click Here</summary>
-           <summary>Sameer </summary>
-           <summary>Arshad</summary>
-           <summary>Title 1</summary>
-           <summary>Title 1</summary>
-           <summary>Title 1</summary>
-           <summary>Talha</summary>
+           <summary>Click Here To See Features </summary>
+           <summary>Create your own Leave Type as admin </summary>
+           <summary>Add the number of days specific to a leave</summary>
+           <summary>Allocate Leave to Employees</summary>
+           <summary>User Authentication</summary>
+           <summary>Apply for Leave</summary>
+           <summary>Leave request approval workflow</summary>
+           <summary>Employee List View</summary>
+           <summary>Leave request approval workflow</summary>
+           <summary>Allocation Leave View</summary>
+           <summary>Request List View</summary>
            <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
          </details>
+
+
+
+
+
+
+
 ## Technology Stack
 
-
+<details>
+           <summary>Click Here To See Technology Stack</summary>
+           <summary>Backend: C# (.NET) </summary>
+           <summary>Database: Microsoft SQL</summary>
+           <summary>Frontend: JS, HTML, CSS</summary>
+           <summary>Framework: Entity Framework, Bootstrap</summary>
+           <summary>Code Editor: Visual Studio</summary>
+           <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
+         </details>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
