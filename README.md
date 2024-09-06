@@ -4,19 +4,18 @@ This project is an interactive leave application portal that includes Employee l
 ## Features
 
 Markup : <details>
+           <summary>Click Here</summary>
+           <summary>Sameer </summary>
+           <summary>Arshad</summary>
            <summary>Title 1</summary>
            <summary>Title 1</summary>
            <summary>Title 1</summary>
-           <summary>Title 1</summary>
-           <summary>Title 1</summary>
-           <summary>Title 1</summary>
-           <summary>Title 1</summary>
+           <summary>Talha</summary>
            <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
          </details>
 ## Technology Stack
 
-Markup : - [ ] An uncompleted task
-          - [x] A completed task
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
