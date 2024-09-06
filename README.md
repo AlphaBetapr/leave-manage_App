@@ -5,6 +5,12 @@ This project is an interactive leave application portal that includes Employee l
 
 Markup : <details>
            <summary>Title 1</summary>
+           <summary>Title 1</summary>
+           <summary>Title 1</summary>
+           <summary>Title 1</summary>
+           <summary>Title 1</summary>
+           <summary>Title 1</summary>
+           <summary>Title 1</summary>
            <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
          </details>
 ## Technology Stack
