@@ -1,6 +1,9 @@
 # LEAVE APPLICATION PORTAL
 ## Beginners Guide
 This project is an interactive leave application portal that includes Employee login and administration Login. Employees can apply for leave and view leave status (i.e. the amount of leave remaining for a specific leave type and see leave that they are allowed.). Administration can either accept or reject an employee leave request
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Features
 
 <details>
@@ -15,13 +18,7 @@ This project is an interactive leave application portal that includes Employee l
            <summary>Leave request approval workflow</summary>
            <summary>Allocation Leave View</summary>
            <summary>Request List View</summary>
-           <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
          </details>
-
-
-
-
-
 
 
 ## Technology Stack
@@ -33,7 +30,6 @@ This project is an interactive leave application portal that includes Employee l
            <summary>Frontend: JS, HTML, CSS</summary>
            <summary>Framework: Entity Framework, Bootstrap</summary>
            <summary>Code Editor: Visual Studio</summary>
-           <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
          </details>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
