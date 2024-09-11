@@ -1,5 +1,4 @@
-# LEAVE APPLICATION PORTAL
-## Beginners Guide
+# ✨ LEAVE APPLICATION PORTAL
 This project is an interactive leave application portal that includes Employee login and administration Login. Employees can apply for leave and view leave status (i.e. the amount of leave remaining for a specific leave type and see leave that they are allowed.). Administration can either accept or reject an employee leave request
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
