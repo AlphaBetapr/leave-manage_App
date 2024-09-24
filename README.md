@@ -1,36 +1,59 @@
 # ✨ LEAVE APPLICATION PORTAL
-This project is an interactive leave application portal that includes Employee login and administration Login. Employees can apply for leave and view leave status (i.e. the amount of leave remaining for a specific leave type and see leave that they are allowed.). Administration can either accept or reject an employee leave request
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This project is an interactive leave application portal that includes both employee and administration login functionalities. Employees can apply for leave and track their leave status, including the remaining balance for each leave type. Administrators can manage leave requests, allocate leave to employees, and either approve or reject leave applications.
 
-## Features
+---
 
-<details>
-           <summary>Click Here To See Features </summary>
-           <summary>Create your own Leave Type as admin </summary>
-           <summary>Add the number of days specific to a leave</summary>
-           <summary>Allocate Leave to Employees</summary>
-           <summary>User Authentication</summary>
-           <summary>Apply for Leave</summary>
-           <summary>Leave request approval workflow</summary>
-           <summary>Employee List View</summary>
-           <summary>Leave request approval workflow</summary>
-           <summary>Allocation Leave View</summary>
-           <summary>Request List View</summary>
-         </details>
-
-
-## Technology Stack
+## 🚀 Features
 
 <details>
-           <summary>Click Here To See Technology Stack</summary>
-           <summary>Backend: C# (.NET) </summary>
-           <summary>Database: Microsoft SQL</summary>
-           <summary>Frontend: JS, HTML, CSS</summary>
-           <summary>Framework: Entity Framework, Bootstrap</summary>
-           <summary>Code Editor: Visual Studio</summary>
-         </details>
+  <summary>Explore the Feature Set</summary>
+  
+  - **Create Leave Types**: Admins can create custom leave types.
+  - **Leave Allocation**: Admins can assign a specific number of days to each leave type.
+  - **Employee Leave Allocation**: Admins can allocate leave balances to employees.
+  - **User Authentication**: Secure login for both employees and administrators.
+  - **Apply for Leave**: Employees can apply for leave through the portal.
+  - **Leave Request Approval Workflow**: Admins can approve or reject leave requests.
+  - **Employee List View**: View all employees and their leave balances.
+  - **Leave Request Tracking**: Employees can monitor the status of their leave requests.
+  - **Leave Allocation View**: Employees can see the leaves allocated to them.
+  - **Leave Request List**: Admins can view all leave requests submitted by employees.
+  
+</details>
 
+---
+
+## 🛠️ Technology Stack
+
+<details>
+  <summary>Discover the Tech Stack</summary>
+  
+  - **Backend**: C# (.NET)
+  - **Database**: Microsoft SQL
+  - **Frontend**: JavaScript, HTML, CSS
+  - **Framework**: Entity Framework, Bootstrap
+  - **Code Editor**: Visual Studio
+  
+</details>
+
+---
+
+## How to Use
+
+1. **Employee Portal**: Employees can log in, view their leave balances, apply for leave, and track the status of their applications.
+2. **Admin Portal**: Administrators can log in, create leave types, allocate leave to employees, and manage leave requests.
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/leave-application-portal.git
+
+## Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # POV : ADMIN 
