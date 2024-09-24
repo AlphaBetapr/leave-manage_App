@@ -22,7 +22,6 @@ This project is an interactive leave application portal that includes both emplo
   
 </details>
 
----
 
 ## 🛠️ Technology Stack
 
@@ -37,14 +36,12 @@ This project is an interactive leave application portal that includes both emplo
   
 </details>
 
----
 
 ## How to Use
 
 1. **Employee Portal**: Employees can log in, view their leave balances, apply for leave, and track the status of their applications.
 2. **Admin Portal**: Administrators can log in, create leave types, allocate leave to employees, and manage leave requests.
 
----
 
 ## Installation
 
@@ -52,8 +49,6 @@ This project is an interactive leave application portal that includes both emplo
    ```bash
    git clone https://github.com/yourusername/leave-application-portal.git
 
-## Contributing
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # POV : ADMIN 
@@ -87,8 +82,8 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 ![13  Employee Requesting Leave](https://github.com/user-attachments/assets/e444567f-0b35-4455-b4a5-4339bcd4b6b2)
 
 
-
-
+## Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
 
 
