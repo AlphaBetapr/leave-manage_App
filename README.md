@@ -47,7 +47,7 @@ This project is an interactive leave application portal that includes both emplo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/leave-application-portal.git
+   git clone https://github.com/msameerr/Leave-Application-Portal.git
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
